@@ -4,9 +4,10 @@ git add <file> //把当前文件参加的git的跟踪中，交给git经管，提交到本地库
 
 git commit -m “…”//相当于写点提交信息
 
-git remote add origin git＠github.com:ellocc/gittest.git //这个相当于指定本地库与github上的哪个项目相连
-
+git pull origin master 相当于是从远程获取最新版本并merge到本地
+ 
 git push -u origin master //将本地库提交到github上。
+git remote add origin git＠github.com:ellocc/gittest.git //这个相当于指定本地库与github上的哪个项目相连
 
 git clone git＠github.com:ellocc/gittest.git  //将github上的项目down下来。
 
